@@ -1,2 +1,0 @@
-model_checkpoint_path: "/media/shweta/scratch/shweta_data/beam_search/deep-trans-master/data/transliterate.ckpt-800"
-all_model_checkpoint_paths: "/media/shweta/scratch/shweta_data/beam_search/deep-trans-master/data/transliterate.ckpt-800"

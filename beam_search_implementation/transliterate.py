@@ -43,9 +43,9 @@ tf.app.flags.DEFINE_integer("size", 256, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 1, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("en_vocab_size", 32, "English vocabulary size.")
 tf.app.flags.DEFINE_integer("hn_vocab_size", 86, "Hindi vocabulary size.")
-tf.app.flags.DEFINE_string("data_dir", "/media/shweta/scratch/shweta_data/beam_search/deep-trans-master/data/", "Data directory")
-tf.app.flags.DEFINE_string("transliterate_file_dir", "/media/shweta/scratch/shweta_data/beam_search/deep-trans-master/data/", "Data directory")
-tf.app.flags.DEFINE_string("train_dir", "/media/shweta/scratch/shweta_data/beam_search/deep-trans-master/data/", "Training directory.")
+tf.app.flags.DEFINE_string("data_dir", "./data/", "Data directory")
+tf.app.flags.DEFINE_string("transliterate_file_dir", "./data/", "Data directory")
+tf.app.flags.DEFINE_string("train_dir", "./data/", "Training directory.")
 tf.app.flags.DEFINE_integer("max_train_data_size", 0,
                             "Limit on the size of training data (0: no limit).")
 tf.app.flags.DEFINE_integer("steps_per_checkpoint", 200,
